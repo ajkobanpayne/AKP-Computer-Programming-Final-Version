@@ -1,0 +1,97 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+input[type="range"] { 
+cursor: pointer; /* Change cursor to pointer when hovering over range input */
+}
+
+/* position for the background image */
+img {
+    
+    position: fixed;
+    width: 400px;
+    top:100px;
+    left: 283px;
+/* width: 400px;
+top: 10%;
+left: 50%;
+margin-left: -200px; Negative half of width. */
+    z-index: -5;
+}
+
+/* style values for input gain controls */
+input[id="inputGain"] {
+    position:absolute; top: 140px; left: 570px;
+}
+label[id="inputGainDisplay"] {
+    position:absolute; top: 190px; left: 635px;
+
+}
+h1[id="inputHeader"] {
+    position:absolute; top: 185px; left: 572px;
+
+}
+
+/* style values for drive controls */
+input[id="drive"] {
+    position:absolute; top: 140px; left: 450px;
+}
+label[id="driveDisplay"] {
+    position:absolute; top: 190px; left: 515px;
+
+}
+h1[id="driveHeader"] {
+    position:absolute; top: 185px; left: 447px;
+
+}
+
+/* style values for output gain controls */
+input[id="outputGain"] {
+    position:absolute; top: 140px; left: 330px;
+}
+label[id="outputGainDisplay"] {
+    position:absolute; top: 190px; left: 395px;
+
+}
+h1[id="outputHeader"] {
+    position:absolute; top: 185px; left: 330px;
+
+}
+
+/* style values for hpf controls */
+input[id="hpfFreq"] {
+   position:absolute; top: 260px; left: 570px;
+
+}
+label[id="hpfFreqDisplay"] {
+    position:absolute; top: 310px; left: 635px;
+
+}
+h1[id="hpfHeader"] {
+    position:absolute; top: 305px; left: 579px;
+
+}
+
+/* style values for tone controls */
+input[id="tone"] {
+    position:absolute; top: 260px; left: 330px;
+ 
+ }
+ label[id="toneDisplay"] {
+     position:absolute; top: 310px; left: 395px;
+ 
+ }
+ h1[id="toneHeader"] {
+     position:absolute; top: 305px; left: 332px;
+ 
+ }
+
+ /* style values for toggle controls */
+ input[id="toggle"] {
+    position:absolute; top: 610px; left: 468px;
+ }
+h1[id="toggleHeader"] {
+    position: absolute; top: 625px; left: 443px;
+}

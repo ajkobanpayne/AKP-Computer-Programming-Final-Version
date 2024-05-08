@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dist-aster</title>
+    <script src="script.js" type="module"></script>
+    <script src="input-knobs.js"></script>
+    <script>window.inputKnobsOptions={fgcolor:"black",bgcolor:"antiquewhite",knobDiameter:"60"}</script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>dist-aster</h1>
+    <button id="startAudio">Start Audio</button>
+  </body>
+  <div 1>
+    <input id="hpfFreq" type="range" class="input-knob" min="0" max="2000" value="400" step="10">
+    <label id="hpfFreqDisplay" for="hpfFreq">400</label>
+    <h1 id="hpfHeader">hpf</h1>
+  </div>
+
+  <div 2>
+    <input id="drive" type="range" class="input-knob" min="50" max="800" value="50" step="1">
+    <label id="driveDisplay" for="drive">50</label>
+    <h1 id="driveHeader">drive</h1>
+  </div>
+
+  <div 3>
+    <input id="inputGain" type="range" class="input-knob" min="-20" max="6" value="0" step="0.1">
+    <label id="inputGainDisplay" for="inputGain">0.0</label>
+    <h1 id="inputHeader">gain</h1>
+  </div>
+
+  <div 4>
+    <input id="outputGain" type="range" class="input-knob" min="-20" max="6" value="0" step="0.1">
+    <label id="outputGainDisplay" for="outputGain">0.0</label>
+    <h1 id="outputHeader">level</h1>  
+  </div>
+
+  <div 5>
+    <input id="tone" type="range" class="input-knob" min="1" max="100" value="100" step="1">
+    <label id="toneDisplay" for="tone">100%</label>
+    <h1 id="toneHeader">tone</h1>  
+  </div>
+
+  <div 6> 
+    <input id="toggle" type="checkbox" class="input-switch">
+    <h1 id="toggleHeader">on/off</h1>  
+  </div>
+
+  <img src="pedalbg2.jpg">
+
+</html>
